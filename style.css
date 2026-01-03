@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  text-align: center;
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#pdfCanvas {
+  width: 100%;
+  height: auto;
+}
+
+.hint {
+  margin-top: 15px;
+  color: #777;
+  font-size: 14px;
+}
